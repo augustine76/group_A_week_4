@@ -39,3 +39,10 @@ func isPrime(n int) bool {
 func calculateArea(length float64, width float64) float64 {
     return length * width
 }
+
+
+//Jagdish Sharma
+func celsiusToFahrenheit(celsius float64) float64 {
+    return (celsius * 9/5) + 32
+}
+
