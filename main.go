@@ -37,12 +37,20 @@ func isPrime(n int) bool {
 
 //Gul Mohammad Saifee
 func calculateArea(length float64, width float64) float64 {
-    return length * width
+	return length * width
 }
-
 
 //Jagdish Sharma
 func celsiusToFahrenheit(celsius float64) float64 {
-    return (celsius * 9/5) + 32
+	return (celsius * 9 / 5) + 32
 }
 
+//Anandu Prasad
+
+func oddOrEven(num int) {
+	if num%2 == 0 {
+		fmt.Println("number is even")
+	} else {
+		fmt.Println("number is odd")
+	}
+}
