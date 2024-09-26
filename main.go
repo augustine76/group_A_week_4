@@ -54,3 +54,12 @@ func oddOrEven(num int) {
 		fmt.Println("number is odd")
 	}
 }
+
+// Jaskirat Singh
+// Fibonacci Sequence
+func fibonacci(n int) int {
+	if n <= 1 {
+		return n
+	}
+	return fibonacci(n-1) + fibonacci(n-2)
+}
