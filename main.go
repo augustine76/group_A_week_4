@@ -46,3 +46,16 @@ func celsiusToFahrenheit(celsius float64) float64 {
     return (celsius * 9/5) + 32
 }
 
+// Jaskirat Singh
+// Fibonacci Sequence 
+func fibonacci(n int) int {
+    if n <= 1 {
+        return n
+    }
+    return fibonacci(n-1) + fibonacci(n-2)
+}
+
+func main() {
+    num := 7
+    fmt.Printf("Fibonacci number at position %d is %d\n", num, fibonacci(num))
+}
