@@ -1,7 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
-	// This is a comment
-	// This is another comment
-	// This is a third comment
+	fmt.Println("Welcome to Group I's Week 4 Project!")
 }
